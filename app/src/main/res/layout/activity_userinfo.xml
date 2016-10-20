@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:textSize="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="用户ID:"
+    android:id="@+id/tv_userId"
+    />
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="粉丝数:"
+        android:id="@+id/tv_fansNumber"
+        android:layout_below="@id/tv_userId"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关注数:"
+        android:id="@+id/tv_focusNumber"
+        android:layout_below="@id/tv_fansNumber"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="微博数:"
+        android:id="@+id/tv_wbNumber"
+        android:layout_below="@id/tv_focusNumber"
+        />
+</RelativeLayout>
